@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beard Barbershop</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="animation.css">
+    <link rel="stylesheet" type="text/css" href="modal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="block1">
+        <div class="header">
+            <p class="header-link"><a>Ціни</a></p>
+            <p class="header-link"><a>Майстри</a></p>
+            <p class="header-link"><a>Акції</a></p>
+            <img src="barbershop/logo.png">
+
+            <p class="header-link"><a>Вакансії</a></p>
+            <p class="header-link"><a>Блог</a></p>
+            <p class="header-link"><a>Контакти</a></p>
+
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+        <div class="main-description">
+            <div class="h1">BREAD BARBERSHOP -</div>
+            <div class="p1">це не просто перукарня, це місце де можна відпочити від щоденних турбот і обов'язків, 
+                поки ми дбаємо про ваш стиль.</div>
+            <input type="button" id="myBtn" class="btn1" value="online запис"> 
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="barbershop/logo.png" class="logo-modal">
+                    <form action="send.php" method="post">
+                        <input type="text" name="first" class="input-modal" placeholder="/ім'я" required>
+                        <input type="text" name="second" class="input-modal" placeholder="/прізвище" required>
+                        <input type="tel" name="tel" class="input-modal" placeholder="/телефон" required>
+                        <input type="email" name="email" class="input-modal" placeholder="/e-mail" required>
+
+                        <input type="submit" class="btn-modal" value="відправити">
+                    </form>
+                </div>
+            </div>  
+            
+            <div class="adres">Пн - Нд / 9.00-22.00<br>Вул. Євгена Сверстюка, 15</div>
+
+            
+
+        </div>
+        
+    </div>
+
+    <div class="block2">
+        <div class="background-text">Ціни та послуги</div>
+        <div class="h2">Ціни та послуги</div>
+
+        <div class="price price1">
+            <div class="price-text">Чоловіча стрижка</div>
+            <div class="price-value">350 - 500 ₴</div>
+        </div>
+
+        <div class="price ">
+            <div class="price-text">Камуфляж голови</div>
+            <div class="price-value">300 - 400 ₴</div>
+        </div>
+
+        <div class="price ">
+            <div class="price-text">Гоління голови</div>
+            <div class="price-value">250 - 400 ₴</div>
+        </div>
+
+        <div class="price ">
+            <div class="price-text">Укладання волосся</div>
+            <div class="price-value">100 - 200 ₴</div>
+        </div>
+
+        <div class="price price2">
+            <div class="price-text">Стрижка бороди</div>
+            <div class="price-value">200 - 350 ₴</div>
+        </div>
+
+        <div class="price ">
+            <div class="price-text">Камуфляж бороди</div>
+            <div class="price-value">200 - 400 ₴</div>
+        </div>
+
+        <div class="price ">
+            <div class="price-text">Королівське гоління</div>
+            <div class="price-value">300 - 400 ₴</div>
+        </div>
+
+
+        <div class="price price2">
+            <div class="price-text">Дитяча стрижка</div>
+            <div class="price-value">250 - 400 ₴</div>
+        </div>
+
+        <div class="price-footer">
+            <div class="comment">/безкоштовний напій до кожної стрижки</div>
+            <div class="detali">детальніше</div>
+            <input type="button" id="myBtn2" class="btn2" value="online запис">
+        </div>
+    </div>
+
+    <div class="about-us">
+        <div class="background-text2">Про нас</div>
+        <div class="h3">Про нас</div>
+        <div class="p2">Барбершоп Bread - це саме той чоловічий салон, в якому <span>професійний</span> барбер потурбується про оформлення вашої стрижки та бороди, а також складе чудову компанію. </div>
+        <img src="barbershop/photo 1.jpg" class="photo1">
+        <div class="p3">Ми використовуємо <span>якісні</span> матеріали та перевірену роками косметику. Наша команда з увагою ставиться до кожного клієнта, та створює <span>унікальні</span> зачіски відповідно до вашого стилю.</div>
+        <img src="barbershop/photo 2.jpg" class="photo2">
+        <div class="adres1">Пн - Нд / 9.00-22.00<br>Вул. Євгена Сверстюка, 15</div>
+    </div>
+
+    <div class="our-work">
+        <div class="background-text3">Наші роботи</div>
+        <div class="h4">Наші роботи</div>
+        <img src="barbershop/photo/1.jpg" class="photo3">
+        <img src="barbershop/photo/2.jpg" class="photo3">
+        <img src="barbershop/photo/3.jpg" class="photo3">
+        <img src="barbershop/photo/4.jpg" class="photo3 no-margin">
+
+    </div>
+
+    <div class="our-work block-fix">
+        <div class="background-text3">Наші барбери</div>
+        <div class="h4">Наші барбери</div>
+        <img src="barbershop/photo/1-1.jpg" class="photo3">
+        <img src="barbershop/photo/2-2.jpg" class="photo3">
+        <img src="barbershop/photo/3-3.jpg" class="photo3">
+        <img src="barbershop/photo/4-4.jpg" class="photo3 no-margin">
+
+    </div>
+
+    <div class="form">
+        <img src="barbershop/logo.png" class="logo">
+        <div class="p4">bread.barbershop@gmail.com</div>
+        <div class="p4">вул. Євгена Сверстюка, 15</div>
+        <div class="p4">Пн - Нд / 9.00-22.00</div>
+        <div class="p4">+38 097 123 45 67</div>
+        <div class="comment1">/біля нас працює парковка</div>
+        <input type="button" id="myBtn3" class="btn2 btn-fix" value="online запис">
+
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1902.644221978293!2d30.638491772485974!3d50.464835583460975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4daa80c9cfaeb%3A0xf902c8fd02a037f3!2zS29ycHVzIEEsINCy0YPQu9C40YbRjyDQmtGW0L7RgtC-LCAxOSwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1617563756352!5m2!1sru!2sua" width="110%" height="800" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+    
+</body>
+</html>

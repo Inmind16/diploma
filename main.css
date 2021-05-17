@@ -1,0 +1,465 @@
+html {overflow-x: hidden;}
+
+body{
+    background: #101010;
+}
+
+.block1{
+    height: 1024px;
+    width: 101%;
+    background-image: url('barbershop/man1.jpg');
+    margin: -10px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding: 0px;
+    border: 1px solid transparent;
+
+
+}
+
+.header{
+    height: 138px;
+    width: 1160px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-link{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 20px;
+    
+    
+    
+
+}
+
+.line1{
+    height: 1px;
+    width: 400px;
+    background: #4F4F4F;
+    display: block;
+    position: absolute;
+    top: 120px;
+
+}
+
+.line2{
+    height: 1px;
+    width: 450px;
+    background: #4F4F4F;
+    display: block;
+    position: absolute;
+    top: 120px;
+    margin-left: 720px;
+    
+
+}
+
+
+.header-link:hover{
+    
+    text-decoration: underline;
+    transition: all 0.7s;
+    
+    
+}
+
+.main-description{
+    width: 1160px;
+    height: 500px;
+    margin: 0px;
+    margin-top: 117px;
+    border: 1px solid transparent;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.h1{
+    font-family: 'Prata', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    display: block;
+    margin: 0px;
+}
+
+.p1{
+    height: 96px;
+    width: 460px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    color: #BDBDBD;
+    margin-top: 48px;
+    
+}
+
+.btn1{
+    display: block;
+    height: 60px;
+    width: 260px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #CCB9B1;
+    background-color: transparent;
+    border: 1px solid  #CCB9B1;;
+    margin-top: 59px;
+
+}
+
+.btn1:hover{
+    background-color: #CCB9B1;
+    color: white;
+    transition: all 0.7s;
+}
+
+.adres{
+    height: 64px;
+    width: 227px;
+    margin-top: 118px;
+    
+    margin-left: 933px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    text-align: right;
+    color: #BDBDBD;
+}
+
+.block2{
+    width: 1160px;
+    height: 1150px;
+    border: 1px solid transparent;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.background-text{
+    font-family: 'Prata', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+
+}
+
+.h2{
+    font-family: 'Prata', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 97px;
+    margin-left: 90px;
+}
+
+.price{
+    height: 58px;
+    width: 1160px;
+    border-bottom: 1px solid #4F4F4F;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.price1{
+    margin-top: 80px;
+
+}
+
+.price2{
+    margin-top: 100px;
+}
+
+.price-text{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+    
+    
+}
+
+.price-value{
+    font-family: 'Prata', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    
+    
+    
+    
+    
+    
+}
+
+.price-footer{
+    width: 1160px;
+    height: 100px;
+    border: 1px solid transparent;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.comment{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4F4F4F;
+    display: inline-block;
+}
+
+.detali{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #CCB9B1;
+    display: inline-block;
+    margin-left: 419px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.detali:hover{
+    text-decoration: underline;
+}
+
+.btn2{
+    display: inline-block;
+    height: 60px;
+    width: 260px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #CCB9B1;
+    background-color: transparent;
+    border: 1px solid  #CCB9B1;
+    margin-left: 100px;
+    align-self: center;
+}
+
+.btn2:hover{
+    background-color: #CCB9B1;
+    color: white;
+    transition: all 0.7s;
+}
+
+.about-us{
+    height: 1162px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border: 1px solid transparent;
+}
+
+.background-text2{
+    font-family: 'Prata', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    width: 980px;
+    
+    
+}
+.h3{
+    font-family: 'Prata', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 97px;
+
+}
+
+.p2{
+    width: 500px;
+    height: 144px;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #BDBDBD;
+    border: 1px solid transparent;
+    margin-top: 237px;
+    line-height: 200%;
+    display: inline-block;
+
+}
+
+span{
+    background-color: #CCB9B1;
+    color: black;
+}
+
+.photo1{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.p3{
+    width: 500px;
+    height: 144px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    color: #BDBDBD;
+    margin-top: 181px;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+.photo2{
+    display: inline-block;
+    
+}
+
+.adres1{
+    height: 64px;
+    width: 227px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    text-align: right;
+    color: #BDBDBD;
+    margin-left: 740px;
+    margin-top: 50px;
+}
+
+.our-work{
+    width: 1160px;
+    height: 700px;
+    
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-text3{
+    font-family: 'Prata', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    
+}
+
+.h4{
+    font-family: 'Prata', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 97px;
+    margin-left: 100px;
+}
+
+.photo3{
+    display: inline-block;
+    margin-top: 117px;
+    margin-right: 35px;
+    filter: brightness(0.5);
+}
+
+.photo3:hover{
+    filter: brightness(1);
+    transition: all 0.6s;
+}
+
+.no-margin{
+    margin-right: 0px;
+}
+
+.form{
+    position: absolute;
+    width: 460px;
+    height: 650px;
+    background: #333333;
+    margin-top: 70px;
+    left: 1100px;
+    border: 1px solid transparent;
+}
+
+.logo{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.p4{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 155%;
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.comment1{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155%;
+    color: #4F4F4F;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+.btn-fix{
+    margin-top: 20px;
+}
+
